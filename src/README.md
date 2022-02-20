@@ -43,6 +43,6 @@ I realized that I'm constantly trying to remember some server name or some port 
 
 Above is just one workflow which I think with some thought and fine tuning can be used for deploying any software to any client and all the `reporting` and `installations` will happen automatically
 
-Youtube: [https://www.youtube.com/watch?v=sJO3b0WXm8I](https://www.youtube.com/watch?v=sJO3b0WXm8I)
-Youtube: [https://www.youtube.com/watch?v=0V-UtIK_6oI&t=3s](https://www.youtube.com/watch?v=0V-UtIK_6oI&t=3s)
-Youtube: [https://www.youtube.com/watch?v=GbN-SnK5cy4](https://www.youtube.com/watch?v=GbN-SnK5cy4)
+- Youtube: [https://www.youtube.com/watch?v=sJO3b0WXm8I](https://www.youtube.com/watch?v=sJO3b0WXm8I)
+- Youtube: [https://www.youtube.com/watch?v=0V-UtIK_6oI&t=3s](https://www.youtube.com/watch?v=0V-UtIK_6oI&t=3s)
+- Youtube: [https://www.youtube.com/watch?v=GbN-SnK5cy4](https://www.youtube.com/watch?v=GbN-SnK5cy4)
