@@ -1,8 +1,10 @@
 # Munin
 
-[Munin](https://munin-monitoring.org/) is open source and free software for monitoring computer system, network monitoring and application infrastructure monitoring software. Munin offers monitoring and alerting for servers, switches, applications, and services.
+[Munin](https://munin-monitoring.org/) is open source and free software for monitoring computer system, network monitoring and application infrastructure monitoring software. 
+Munin offers monitoring and alerting for servers, switches, applications, and services.
 
-Munin can help system administrators to analyze the trend of the computer system whether it is experiencing problems or not. It can be an easier alternative to the popular open-source software [zabbix monitoring](https://webhostinggeeks.com/howto/how-to-install-zabbix-2-2-server-on-centos-6-5/).
+Munin can help system administrators to analyze the trend of the computer system whether it is experiencing problems or not. 
+It can be an easier alternative to the popular open-source software [zabbix monitoring](https://webhostinggeeks.com/howto/how-to-install-zabbix-2-2-server-on-centos-6-5/).
 
 In this article, I will explain how you can monitor your linux CentOS with Munin and the simple steps to install and setup Munin on CentOS 7.
 

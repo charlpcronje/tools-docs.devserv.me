@@ -1,4 +1,10 @@
-# Some Productivity Tools & Tips
+# Some Productivity Tools
+
+```sh
+.__ .___.  .   .___..__..__..    __.   .  ..___
+|  \[__ \  /     |  |  ||  ||   (__    |\/|[__ 
+|__/[___ \/  *   |  |__||__||___.__) * |  |[___
+```                                          
 
 For some usages and uncommon command for software lie GIT etc, I created the following usages section.
 
@@ -6,43 +12,87 @@ For some usages and uncommon command for software lie GIT etc, I created the fol
 
 I realized that I'm constantly trying to remember some server name or some port number or URL. Also working with the file system in the terminal is not always the nicest experience. Also accessing MySQL in the terminal is a waste of time. Managing Docker containers also gets old fast. To get past all of these frustrations I found a collection of tools that makes everything quick to access and for new users this will make a big difference.
 
-- [Heimdal Dashboard](https://setup-docs.devserv.me/heimdal/)
-- [Cockpit Server Management](https://setup-docs.devserv.me/cockpit)
-- [Portainer Container Management](https://setup-docs.devserv.me/portainer)
-- [AdMiner Web-Bases SQL Client](adminer.md)
-- [Code Snippets](https://setup-docs.devserv.me/codesnippets)
-- [Install Dillinger for MD](https://setup-docs.devserv.me/dillinger)
-- [Install Double Commander](https://setup-docs.devserv.me/doublecommander)
-- [Install Cloud Commander](https://setup-docs.devserv.me/cloudcommander)
-- [Install Droppy File Manager](https://setup-docs.devserv.me/droppy)
-- [rstudio.md](rstudio.md)
-- [VS Code-Server](https://setup-docs.devserv.me/codeserverdocker)
-- [Cloud9 IDE](https://setup-docs.devserv.me/cloud9)
-- [Ice Coder](iceCoder.md)
-- **[Scripts](scripts/README.md)**
-  - [Service Menu](scripts/serviceMenu.md)
-  - [Retype Build](retypeBuild.md)
-  - [setWebPermissions](scripts/fixWebPermisions.md)
-- [ReType](https://setup-docs.devserv.me/retype)
-- [OrangeHRM](orangeHrm.md)
-- [Install VmStat](vmstat.md)
-- [Install htop](htop.md)
-- [Install Munin](munin.md)
+
+## Automation
+
+- [AutoHotKey])()
+- [n8n Workflow Automation](n8n.md)
+
+## Dashboards
+
 - [Install Dashboard](dashboard.md)
+- [Imstall Grafana](grafana/README.md)
+- [Heimdal Dashboard](https://setup-docs.devserv.me/heimdal)
+- **[Vikunja](vikunja/README.md)**  
+  - [Install Vikunja API](vikunja/vikunjaApi.md)
+  - [Install Vikunja Frontend](vikunja/vikunjaFrontend.md)
+  - [Setup Apache Virtual Host](vikunjaVhost.md)
+  - [Configure Frontend](vikunjaConfigureFrontend.md)
+  - [Install Vikunja Desktop](vikunja/vikunjaDesktop.md)
+  - [Install Vikunja Mobile](vikunja/vikunjaMoble.md)
+- [Install OliveTin](oliveTin.md)
+- [Install Munin](munin.md)
+
+## Document Management
+
+- [Install Dillinger for MD](https://setup-docs.devserv.me/dillinger)
+- [Install Paper{s}pace](paperspace/README.md)
+- [Install Paperwork](paperwork.md)
+- [Install Teedy](teedy.md)
+- [ReType](https://setup-docs.devserv.me/retype)
+  - [Retype Build](retypeBuild.md)
+- [Install and Create Ghost Blog](ghostblog.md)
+
+## Database Management
+
+- [AdMiner Web-Bases SQL Client](adminer.md)
+
+## Development
+
+- [Cloud9 IDE](https://setup-docs.devserv.me/cloud9)
+- [Code Snippets](https://setup-docs.devserv.me/codesnippets)
+- **[Hoppscotch](hoppscotch/README.md)**
+  - [Hoppscotch CLI](hoppscotch/cli.md)
+  - [Hoppscotch PWA](hoppscotch/pwa.md)
+  - [Hoppscotch Browser Ext](hoppscotch/ext.md)
+- [Ice Coder](iceCoder.md)
+- [R Studio Server](rstudio.md)
+- [RegExr](regexr.md)
+- [VS Code-Server](https://setup-docs.devserv.me/codeserverdocker)
 
 ## Facial Recognition
 
 - [Exadel CompreFace](exadelCompreFace.md)
 
-## - [n8n Workflow Automation](n8n.md)
+## File Management
 
-- `n8n` is a workflow automation tool and it can integrate with most public `API's`. The reason why I'm using it to `automate` the deployment of software every time a new release of my software is added to `GITHUB`
-- A release of `GitHub` is not something that happens with every commit, a release is created specifically when you are ready with the new version of your software and it is ready to be shipped to your clients.
-- In many cases the deploy process is manual, so the engineers will log into each client server and copy the release to the server and run the release script and the check that everything was successful. This can be tedious, clients can be forgotten, maybe the clients don't want people to access their servers...
-- with `n8n` you can monitor a `GitHub` `Repo` and some actions can be performed if something happens that you are monitoring. So in this case n8n will be watching for new releases, everything time there is one, it will attempt download it and run the installation. It will get the results of the action and report back to my sever and make an entry for each client. It can send Slack messages or emails or whatsApps if there were any issues, it can auto rollback the software if needed, it can even make a phone call and tell you was a problem
+- [Install Double Commander](https://setup-docs.devserv.me/doublecommander)
+- [Install Cloud Commander](https://setup-docs.devserv.me/cloudcommander)
+- [Install Droppy File Manager](https://setup-docs.devserv.me/droppy)
 
-Above is just one workflow which I think with some thought and fine tuning can be used for deploying any software to any client and all the `reporting` and `installations` will happen automatically
+## Task Management
 
-- Youtube: [https://www.youtube.com/watch?v=sJO3b0WXm8I](https://www.youtube.com/watch?v=sJO3b0WXm8I)
-- Youtube: [https://www.youtube.com/watch?v=0V-UtIK_6oI&t=3s](https://www.youtube.com/watch?v=0V-UtIK_6oI&t=3s)
-- Youtube: [https://www.youtube.com/watch?v=GbN-SnK5cy4](https://www.youtube.com/watch?v=GbN-SnK5cy4)
+- [Install PHP Tasks](phpTasks.md)
+- [Install cmdLine Tasks](cmdLineTasks.md)
+- [Install PHP Tasks & Notes](phpTasksNotes.md)
+
+## Performance
+
+- [Install htop](htop.md)
+- [Test Internet Speed](speedTest.md)
+
+## System Tools
+
+- [Python Release Port with freeport](freeport.md)
+- [Cockpit Server Management](https://setup-docs.devserv.me/cockpit)
+- [Portainer Container Management](https://setup-docs.devserv.me/portainer)
+- [Install VmStat](vmstat.md)
+
+## URL Shortners
+
+- [Short URL with Password](https://jstrieb.github.io/link-lock/create)
+
+## Misc
+
+- [OrangeHRM](orangeHrm.md)
+
