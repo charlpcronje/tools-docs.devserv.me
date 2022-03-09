@@ -22,7 +22,7 @@ services:
     volumes:
       - /var/www/tools/Orangehrm:/var/lib/mysql
     environment:
-      - MYSQL_ROOT_PASSWORD=4334.4334
+      - MYSQL_ROOT_PASSWORD=changeme
       - MYSQL_ROOT_USER=root
       - MYSQL_DATABASE=orangehrm
       
@@ -34,7 +34,7 @@ services:
     environment:
       - ORANGEHRM_DATABASE_HOST=mariadb
       - ORANGEHRM_DATABASE_USER=root
-      - ORANGEHRM_DATABASE_PASSWORD=4334.4334
+      - ORANGEHRM_DATABASE_PASSWORD=changeme
       - ORANGEHRM_DATABASE_NAME=orangehrm
       - PUID=1000
       - PGID=1000
