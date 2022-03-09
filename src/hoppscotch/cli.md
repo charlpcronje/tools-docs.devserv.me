@@ -98,11 +98,6 @@ Example:
 ```shell
 $ hopp-cli send <PATH to hoppscotch-collection.json>
 ```
-
-Sample output:
-
-![send-output](/assets/send.png)
-
 #### GEN
 
 The `gen` command generates the API documentation from `hoppscotch-collection.json` file and serves it as a static page on port `1341`.
