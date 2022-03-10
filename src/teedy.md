@@ -184,9 +184,7 @@ networks:
 ```
 
 Manual installation
--------------------
-
-#### Requirements
+-------------------#### Requirements
 
 - Java 11
 - Tesseract 4 for OCR

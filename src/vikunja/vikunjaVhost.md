@@ -9,7 +9,7 @@ Add the following in httpd.conf at the end of the file or where ever you configu
     ServerName do.devserv.me
     DocumentRoot /var/www/tools/do.devserv.me
     RewriteEngine On
- 	RewriteRule ^\/?(favicon\.ico|assets|audio|fonts|images|manifest\.webmanifest|robots\.txt|sw\.js|workbox-.*|api|dav|\.well-known) - [L]
+ 	RewriteRule ^\/?(fav
     RewriteRule ^(.*)$ /index.html [QSA,L]
     <Directory /var/www/tools/do.devserv.me>
 	    Require all granted
