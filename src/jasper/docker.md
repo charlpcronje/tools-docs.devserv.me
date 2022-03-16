@@ -1,10 +1,10 @@
 # Create Docker Image of ReportServer
 
-Jasper server is shipped with postgresql and tomcat which allows to connect other database servers like mysql, oracle, DB2 and SQL server and connect other application servers like JBoss. Jasper server installation allows to connect an existing postgresql server and a tomcat server. This article is a detailed explanation of Jasper server installation on docker. This installation leverages an existing tomcat server image and a postgresql image which were created on docker.
+Jasper server is shipped with `postgresql` and `tomcat` which allows to connect other database servers like `mysql`, `oracle`, `DB2` and SQL server and connect other application servers like `JBoss`. Jasper server installation allows to connect an existing postgresql server and a `tomcat` server. This article is a detailed explanation of Jasper server installation on docker. This installation leverages an existing `tomcat` server image and a `postgresql` image which were created on `docker`.
 
 ## Initiation of database service
 
-The first step is to create the postgresql image and start database service from an exisiting postgresql (postgresql 10.1) image on docker hub. To start an application’s services you can write a docker-compose.yml file. The docker-compose.yml file that is shown below.
+The first step is to create the `postgresql` image and start database service from an exisiting `postgresql` (postgresql 10.1) image on `docker` hub. To start an application’s services you can write a `docker-compose.yml` file. The `docker-compose.yml` file that is shown below.
 
 ```yml
 version: '3'
@@ -79,7 +79,7 @@ js_db:
 
 ## Initiation of Jasper service
 
-A Jasper image has been created on a tomcat image and the Jasper image is reused to start the Jasper service by adding the following set of lines to the docker-compose.yml file.
+A `Jasper image` has been created on a `tomcat` image and the Jasper image is reused to start the `Jasper` service by adding the following set of lines to the `docker-compose.yml` file.
 
 ```yml
 jasperserver:
@@ -102,7 +102,7 @@ Here `jasperserver-pro:latest` is the latest version of Jasper image that have b
 
 ## Creation of Tomcat image
 
-In order to create an image of the Jasper reporting server you need to create a Docker file which illustrates the requirements, environment variables and deployment steps of the server. Jasper server image uses customised tomcat image as the base image. It’s very easy to create your own tomcat image by adding the following set of lines to a file called Dockerfile which is used by docker to create the particular image.
+In order to create an image of the Jasper reporting server you need to create a Docker file which illustrates the requirements, environment variables and deployment steps of the server. `Jasper` server image uses customised `tomcat` image as the base image. It’s very easy to create your own `tomcat` image by adding the following set of lines to a file called Dockerfile which is used by docker to create the particular image.
 
 ```yml
 FROM java:latest
@@ -141,7 +141,7 @@ Here `-p 8090:8080` maps `8090` port of the host machine to `8080` post of `tomc
 
 ## Creation of Jasper image
 
-Now you can create the Jasper image using the above created tomcat base image.
+Now you can create the Jasper image using the above created `tomcat` base image.
 
 ```sh
 from tomcat:latest
@@ -169,7 +169,7 @@ EXPOSE 8080
 CMD ["catalina.sh","run"]
 ```
 
-Create a resources folder inside the directory you are creating the Dockerfile. The Dockerfiles for tomcat and Jasper should be in two different directories. Download `TIB_js-jrs_6.4.0_bin.zip` and add it to the resources folder. There’s a properties file called default_master.properties in unzipped jasperreports-server-pro-6.4.0-bin/buildomatic. Edit the following lines and add the properties file to resources folder.
+Create a resources folder inside the directory you are creating the Dockerfile. The Dockerfiles for `tomcat` and Jasper should be in two different directories. Download `TIB_js-jrs_6.4.0_bin.zip` and add it to the resources folder. There’s a properties file called default_master.properties in unzipped jasperreports-server-pro-6.4.0-bin/buildomatic. Edit the following lines and add the properties file to resources folder.
 
 ```conf
 # database type
@@ -198,7 +198,7 @@ Now you are ready to run both postgres database service and Jasper reporting ser
 docker-compose up
 ```
 
-You can view the created docker containers by running the following command.
+You can view the created `docker` containers by running the following command.
 
 ```sh
 docker ps
@@ -210,13 +210,13 @@ To stop services and remove containers you can use the following command.
 docker-compose down
 ```
 
-If you want to log into any of the docker containers that you have created, you can use the following command.
+If you want to log into any of the `docker` containers that you have created, you can use the following command.
 
 ```sh
 docker exec -it pgtest /bin/sh
 ```
 
-Now that the Jasper reporting server is up in a docker container you can access the server via the exposed port. In this example since the exposed port is 8080 and if the commercial edition of the server is used you can access server with http://localhost:8080/jasperserver-pro/.
+Now that the `Jasper reporting server` is up in a `docker` container you can access the server via the exposed port. In this example since the exposed port is `8080` and if the commercial edition of the server is used you can access server with [http://localhost:8080/jasperserver-pro/](http://localhost:8080/jasperserver-pro/).
 
 ![img2](https://miro.medium.com/max/1400/1*rsvii81Ra9zS7DV8Hvjshg.png)
 
