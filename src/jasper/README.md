@@ -6,6 +6,9 @@ Before installing any package it is recommended that you update the packages and
 yum -y update
 ```
 
-1. [Install Java](https://setup.docs.devserv.me/java)
+1. [Install Java](https://setup.docs.devserv.me/java/)
 2. [Install Tomcat Server](https://setup.docs.devserv.me/tomcat/)
-3. [Install PostgreSQL]()
+3. [Install PostgreSQL](https://setup-docs.devserv.me/postgresql/)
+4. [Insrall ReportServer](reportServer.md)
+5. [Create Docker Image](docker.md)
+6. [Troubleshooting](help.md)
