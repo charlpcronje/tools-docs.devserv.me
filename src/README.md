@@ -49,6 +49,7 @@ I realized that I'm constantly trying to remember some server name or some port 
 ## Database Management
 
 - [AdMiner Web-Bases SQL Client](adminer.md)
+- [Franchise](https://franchise.cloud/app)
 
 ## Development
 
