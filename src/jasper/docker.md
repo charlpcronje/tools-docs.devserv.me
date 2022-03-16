@@ -36,7 +36,7 @@ services:
 You can mount the data to the host machine as a volume which secures your valuable data using volumes attribute.
 
 ```yml
-js_db:
+  js_db:
     image: postgres:10.1
     container_name: pgtest
     ports:
@@ -62,7 +62,7 @@ POSTGRES_PASSWORD=password
 Alternatively you can use environment attribute in `docker-compose.yml` file to declare the values for the above environment variables as follows.
 
 ```yml
-js_db:
+  js_db:
     image: postgres:10.1
     container_name: pgtest
     ports:
@@ -82,7 +82,7 @@ js_db:
 A `Jasper image` has been created on a `tomcat` image and the Jasper image is reused to start the `Jasper` service by adding the following set of lines to the `docker-compose.yml` file.
 
 ```yml
-jasperserver:
+  jasperserver:
     image: jasperserver-pro:latest
     container_name: jasperserver
     # expose port 8080 and bind it to 8080 on host
