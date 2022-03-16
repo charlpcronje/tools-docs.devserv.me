@@ -6,5 +6,5 @@ Before installing any package it is recommended that you update the packages and
 yum -y update
 ```
 
-1. [Install Java](installJava.md)
+1. [Install Java](https://setup.docs.devserv.me/java)
 
