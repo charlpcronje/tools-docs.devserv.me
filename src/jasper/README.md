@@ -7,6 +7,7 @@ yum -y update
 ```
 
 1. [Install Java](https://setup.docs.devserv.me/java/)
+2. [Other Java Web / Application Servers](otherJavaServers.md)
 2. [Install Tomcat Server](https://setup.docs.devserv.me/tomcat/)
 3. [Install PostgreSQL](https://setup-docs.devserv.me/postgresql/)
 4. [Install ReportServer](reportServer.md)
