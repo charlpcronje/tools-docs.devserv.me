@@ -94,7 +94,7 @@ I realized that I'm constantly trying to remember some server name or some port 
 
 ## Reporting
 
-- [Jasper ReportServer](jasper/README.md)
+- [Jasper ReportServer](https://reports-docs.devserv.me/)
 
 ## URL Shortners
 
