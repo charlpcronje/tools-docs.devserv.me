@@ -35,6 +35,7 @@ I realized that I'm constantly trying to remember some server name or some port 
   - [Install Vikunja Mobile](vikunja/vikunjaMoble.md)
 - [Install OliveTin](oliveTin.md)
 - [Install Munin](munin.md)
+- [Install Jump Dashboard](jump.md)
 
 ## Document Management
 
