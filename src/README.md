@@ -64,6 +64,7 @@ I realized that I'm constantly trying to remember some server name or some port 
 - [R Studio Server](rstudio.md)
 - [RegExr](regexr.md)
 - [VS Code-Server](https://setup-docs.devserv.me/codeserverdocker)
+- [API Development](daptin.md)
 
 ## Facial Recognition
 
@@ -100,6 +101,7 @@ I realized that I'm constantly trying to remember some server name or some port 
 ## URL Shortners
 
 - [Short URL with Password](https://jstrieb.github.io/link-lock/create)
+- [Kutt](kutt.md)
 
 ## Misc
 
