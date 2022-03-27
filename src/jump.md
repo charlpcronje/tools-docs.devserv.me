@@ -67,7 +67,8 @@ composer install --no-dev
 
 ### Open Weather Map
 
-You can configure Jump to get local time and weather updates by adding an Open Weather Map API key to config.php or passing the `OWPAPIKEY` environment variable to the docker container (as described above).
+You can configure Jump to get local time and weather updates by adding an Open Weather Map API key to `ls
+` or passing the `OWPAPIKEY` environment variable to the docker container (as described above).
 
 You will also need to provide a default LATLONG string (e.g. `51.509865,-0.118092`), Jump will use this until you press the location button and allow permission to get your location from the web browser.
 
