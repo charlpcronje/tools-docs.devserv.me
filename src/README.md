@@ -56,6 +56,7 @@ I realized that I'm constantly trying to remember some server name or some port 
 
 - [Cloud9 IDE](https://setup-docs.devserv.me/cloud9)
 - [Code Snippets](https://setup-docs.devserv.me/codesnippets)
+- [Grapes.JS Block Website Dev](grapesjs.md)
 - **[Hoppscotch](hoppscotch/README.md)**
   - [Hoppscotch CLI](hoppscotch/cli.md)
   - [Hoppscotch PWA](hoppscotch/pwa.md)
