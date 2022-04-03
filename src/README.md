@@ -15,6 +15,8 @@ I realized that I'm constantly trying to remember some server name or some port 
 ## Communication
 
 - [React Chat](reactChat.md)
+- [Cypht EMail Client](cyphtMail.md)
+
 
 ## Android
 
@@ -97,6 +99,10 @@ I realized that I'm constantly trying to remember some server name or some port 
 - [Cockpit Server Management](https://setup-docs.devserv.me/cockpit)
 - [Portainer Container Management](https://setup-docs.devserv.me/portainer)
 - [Install VmStat](vmstat.md)
+
+Security
+
+- [KeyBase  End to end encryption](./keybase/README.md)
 
 ## Reporting
 
