@@ -24,7 +24,7 @@ Aside from familiarity with Linux commands, knowing the basics of Docker Compose
 - Step 0: Get the initial set up ready
 - You need to have Docker and Docker Compose installed on your system. You may refer to these tutorials to get instructions for Ubuntu.
 
-# ## Docker and
+## Docker and Docker Compose
 
 - Install Docker on Ubuntu
 - Install Docker Compose on Ubuntu
