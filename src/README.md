@@ -15,6 +15,8 @@ I realized that I'm constantly trying to remember some server name or some port 
 ## Communication
 
 - [React Chat](reactChat.md)
+  - [CometChat Kitchen Sink Sample App (React)](https://github.com/cometchat-pro/javascript-react-chat-app)
+  - [PubNub Chat Components for React](https://github.com/pubnub/react-chat-components)
 - [Cypht EMail Client](cyphtMail.md)
 
 
