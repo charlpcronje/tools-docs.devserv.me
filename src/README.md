@@ -18,6 +18,7 @@ I realized that I'm constantly trying to remember some server name or some port 
   - [CometChat Kitchen Sink Sample App (React)](https://github.com/cometchat-pro/javascript-react-chat-app)
   - [PubNub Chat Components for React](https://github.com/pubnub/react-chat-components)
   - [React Chat Widget](https://github.com/Wolox/react-chat-widget)
+  - [CometChat](https://www.cometchat.com/docs/chat-widgets/web)
 - [Deploy Rocket Chat](rocketChat.md)
 - [Cypht EMail Client](cyphtMail.md)
 
@@ -64,6 +65,7 @@ I realized that I'm constantly trying to remember some server name or some port 
 
 ## Development
 
+- [AppSmith](appSmith.md)
 - [Cloud9 IDE](https://setup-docs.devserv.me/cloud9)
 - [Code Snippets](https://setup-docs.devserv.me/codesnippets)
 - **[Hoppscotch](hoppscotch/README.md)**
