@@ -87,6 +87,7 @@ I realized that I'm constantly trying to remember some server name or some port 
 - [Install Double Commander](https://setup-docs.devserv.me/doublecommander)
 - [Install Cloud Commander](https://setup-docs.devserv.me/cloudcommander)
 - [Install Droppy File Manager](https://setup-docs.devserv.me/droppy)
+- [Install Sprut.io](sprut.md)
 
 ## Task Management
 
