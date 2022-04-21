@@ -114,6 +114,7 @@ Security
 ## Reporting
 
 - [Jasper ReportServer](https://reports-docs.devserv.me/)
+  - [Community Edition Docker](./jasper/ceInstall.md)
 
 ## URL Shortners
 
