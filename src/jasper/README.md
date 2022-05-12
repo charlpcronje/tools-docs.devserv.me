@@ -7,10 +7,10 @@ yum -y update
 ```
 ## Manual Install
 
-1. [Install Java](https://setup.docs.devserv.me/java/)
+1. [Install Java](https://setup.docs.CRONje.ME/java/)
 2. [Other Java Web / Application Servers](otherJavaServers.md)
-3. [Install Tomcat Server](https://setup.docs.devserv.me/tomcat/)
-4. [Install PostgreSQL](https://setup-docs.devserv.me/postgresql/)
+3. [Install Tomcat Server](https://setup.docs.CRONje.ME/tomcat/)
+4. [Install PostgreSQL](https://setup.docs.CRONje.ME/postgresql/)
 5. [Install ReportServer](reportServer.md)
 6. [Create Docker Image](docker.md)
 7. [Other Install options](otherInstallOptions.md)

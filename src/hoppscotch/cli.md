@@ -108,7 +108,7 @@ Example:
 $ hopp-cli gen <PATH to hoppscotch-collection.json>
 ```
 
-Sample Hosted site: https://hopp-docsify.surge.sh/
+Sample Hosted site: https://hopp.docsify.surge.sh/
 
 Powered by [Doscify](https://docsify.js.org)
 

@@ -6,20 +6,20 @@ Add the following in httpd.conf at the end of the file or where ever you configu
 
 ```conf
 <VirtualHost 104.192.7.185:8080>
-    ServerName do.devserv.me
-    DocumentRoot /var/www/tools/do.devserv.me
+    ServerName do.CRONje.ME
+    DocumentRoot /var/www/tools/do.CRONje.ME
     RewriteEngine On
  	RewriteRule ^\/?(fav
     RewriteRule ^(.*)$ /index.html [QSA,L]
-    <Directory /var/www/tools/do.devserv.me>
+    <Directory /var/www/tools/do.CRONje.ME>
 	    Require all granted
         Options +Indexes +FollowSymLinks
         AllowOverride All
     </Directory>
     
     # If you want custom log files
-    ErrorLog /var/www/tools/do.devserv.me/logs/error.log
-    CustomLog /var/www/tools/do.devserv.me/logs/access.log combined
+    ErrorLog /var/www/tools/do.CRONje.ME/logs/error.log
+    CustomLog /var/www/tools/do.CRONje.ME/logs/access.log combined
 </VirtualHost>
 ```
 

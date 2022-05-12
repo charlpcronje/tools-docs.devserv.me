@@ -48,7 +48,7 @@ Below is a script that will download and install Cypht to `/usr/local/share/cyph
 or
 
 ```sh
-wget https://tools.docs.devserv.me/cyphtmail/cypht-install.sh
+wget https://tools.docs.CRONje.ME/cyphtmail/cypht-install.sh
 ```
 
 ```sh

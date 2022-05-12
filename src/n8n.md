@@ -22,7 +22,7 @@ sh /var/www/tools/n8n/start.sh
 # UserSettings were generated and saved to: /home/node/.n8n/config
 ```
 
-n8n can be access on devserv.me:5678
+n8n can be access on CRONje.ME:5678
 
 You can install via Docker or npm.
 

@@ -1,4 +1,4 @@
-# tools-docs.devserv.me
+# tools.docs.CRONje.ME
 
 Tools I setup and tested on development server
 
@@ -20,7 +20,7 @@ npm install retypeapp --global
 retype watch
 ```
 
-> You will require either [`npm`](https://setup.docs.devserv.me/node/), `Yarn`, or the `dotnet CLI` to be installed before installing Retype. Only one of those three is required, although all three could be installed on your machine too. It's up to you. 🙌
+> You will require either [`npm`](https://setup.docs.CRONje.ME/node/), `Yarn`, or the `dotnet CLI` to be installed before installing Retype. Only one of those three is required, although all three could be installed on your machine too. It's up to you. 🙌
 
 __All operating systems are supported, including `Mac`, `Windows`, and `Linux`.__
 

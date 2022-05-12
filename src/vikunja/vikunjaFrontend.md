@@ -11,8 +11,8 @@ Go to the releases page and download the latest stable release, in my case it is
 Execute the following commands 
 
 ```sh
-mkdir /var/www/tools/do.devserv.me
-cd /var/www/tools/do.devserv.me
+mkdir /var/www/tools/do.CRONje.ME
+cd /var/www/tools/do.CRONje.ME
 ```
 
 - Download and extract ZIP file

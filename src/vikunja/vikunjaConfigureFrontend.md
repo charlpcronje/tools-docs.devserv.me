@@ -6,12 +6,12 @@ order: 7
 Open the index.html file and update the following
 
 ```sh
-cd /var/www/tools/do.devserv.me
+cd /var/www/tools/do.CRONje.ME
 nano index.html
 ```
 
 Update the `window.API_URL`
 
 ```js
-window.API_URL = 'https://doapi.devserv.me/api/v1'
+window.API_URL = 'https://doapi.CRONje.ME/api/v1'
 ```

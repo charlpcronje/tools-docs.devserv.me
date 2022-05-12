@@ -102,8 +102,8 @@ npm install -g node-gyp
 ## Install RegExr
 
 ```sh
-mkdir -p /var/www/tools/regex.devserv.me
-cd /var/www/tools/regex.devserv.me
+mkdir -p /var/www/tools/regex.CRONje.ME
+cd /var/www/tools/regex.CRONje.ME
 git clone https://github.com/gskinner/regexr.git .
 npm install
 gulp

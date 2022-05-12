@@ -12,7 +12,7 @@ I tried using the docker image but CORS is giving me issus and I can't seem to g
 - In my case that was `https://dl.vikunja.io/api/0.18.1/vikunja-unstable-x86_64.rpm`
 
 ```sh
-cd /var/www/tools/doapi.devserv.me
+cd /var/www/tools/doapi.CRONje.ME
 wget https://dl.vikunja.io/api/0.18.1/vikunja-unstable-x86_64.rpm
 rpm -i vikunja-unstable-x86_64.rpm
 chmod +x /opt/vikunja
@@ -59,7 +59,7 @@ sudo systemctl start vikunja
 ```
 
 - This will start the servicec on port `3456`
-- I use NginX Proxy Manager to direct traffic to port `3456` when I browse to `doapi.devserv.me`
+- I use NginX Proxy Manager to direct traffic to port `3456` when I browse to `doapi.CRONje.ME`
 
 Next Step: Install the [Frontend](vikunjaFrontend.md)
 

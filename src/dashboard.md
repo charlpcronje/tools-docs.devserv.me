@@ -6,7 +6,7 @@
 
 ## Install
 
-- I'm using [Portainer](https://setup.docs.devserv.me/portainer/) for installing dashboard in a container.
+- I'm using [Portainer](https://setup.docs.CRONje.ME/portainer/) for installing dashboard in a container.
 - Open Portainer
 - Click on Stacks
 - Click on Add Stack
@@ -33,7 +33,7 @@ services:
 
 ## Failed to work
 
-> Okay so after I followed my own steps above I kept on getting `JS` erors. Without time to fix it I decided to clone the repo and build it from source and host the dashboard with my existing apache server and use [NginX Proxy Manager](https://setup.docs.devserv.me/nginxproxymanager) to point [dashboard.devserv.me](https://dashboard.devserv.me) to the folder I cloned the repo to.
+> Okay so after I followed my own steps above I kept on getting `JS` erors. Without time to fix it I decided to clone the repo and build it from source and host the dashboard with my existing apache server and use [NginX Proxy Manager](https://setup.docs.CRONje.ME/nginxproxymanager) to point [dashboard.CRONje.ME](https://dashboard.CRONje.ME) to the folder I cloned the repo to.
 
 ## Here are the steps I followed
 
@@ -71,18 +71,18 @@ IncludeOptional /var/www/**/*vhosts.conf
 - My Virtual Host entry for the dashboard
 
 ```conf
-# dashboard.devserv.me
+# dashboard.CRONje.ME
 <VirtualHost 104.192.7.185:8080>
-    ServerName dashboard.devserv.me
-    ServerAdmin admin@devserv.me
-    DocumentRoot /var/www/tools/dashboard.devserv.me/build
-    <Directory /var/www/tools/dashboard.devserv.me/build>
+    ServerName dashboard.CRONje.ME
+    ServerAdmin admin@CRONje.ME
+    DocumentRoot /var/www/tools/dashboard.CRONje.ME/build
+    <Directory /var/www/tools/dashboard.CRONje.ME/build>
     Require all granted
         Options +Indexes +FollowSymLinks
         AllowOverride All
     </Directory>
-    ErrorLog /var/www/tools/dashboard.devserv.me/logs/error.log
-    CustomLog /var/www/tools/dashboard.devserv.me/logs/access.log combined
+    ErrorLog /var/www/tools/dashboard.CRONje.ME/logs/error.log
+    CustomLog /var/www/tools/dashboard.CRONje.ME/logs/access.log combined
 </VirtualHost>
 ```
 
