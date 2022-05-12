@@ -8,7 +8,7 @@
 
 For some usages and uncommon command for software lie GIT etc, I created the following usages section.
 
-- [Quick Tips](http://tips.docs.CRONje.ME)
+- [Quick Tips](http://tip.docs.cronje.me)
 
 I realized that I'm constantly trying to remember some server name or some port number or URL. Also working with the file system in the terminal is not always the nicest experience. Also accessing MySQL in the terminal is a waste of time. Managing Docker containers also gets old fast. To get past all of these frustrations I found a collection of tools that makes everything quick to access and for new users this will make a big difference.
 
