@@ -84,6 +84,7 @@ services:
     image: docker.io/bitnami/odoo:15
     ports:
       - '80:8069'
+      
     volumes:
       - 'odoo_data:/bitnami/odoo'
     depends_on:

@@ -100,6 +100,10 @@ I realized that I'm constantly trying to remember some server name or some port 
 - [Install htop](htop.md)
 - [Test Internet Speed](speedTest.md)
 
+## Password Managers
+
+- [Passbolt](passbolt.md) 
+
 ## System Tools
 
 - [Python Release Port with freeport](freeport.md)
@@ -125,3 +129,11 @@ Security
 
 - [OrangeHRM](orangeHrm.md)
 
+## Photo Gallery & Images
+
+- [Piwigo](piwigo.md)
+
+
+## Video / Music Encoding
+
+- [FFMpeg](ffmpeg.md)
