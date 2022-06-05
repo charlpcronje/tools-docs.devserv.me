@@ -89,11 +89,13 @@ I realized that I'm constantly trying to remember some server name or some port 
 - [Install Droppy File Manager](https://setup.docs.CRONje.ME/droppy)
 - [Install Sprut.io](sprut.md)
 
-## Task Management
+## ERP / Task / Team Management
 
 - [Install PHP Tasks](phpTasks.md)
 - [Install cmdLine Tasks](cmdLineTasks.md)
+- [Install ERP Next](erpNext.md)
 - [Install PHP Tasks & Notes](phpTasksNotes.md)
+- [Install Mattermost](mattermost.md)
 
 ## Performance
 
@@ -102,7 +104,8 @@ I realized that I'm constantly trying to remember some server name or some port 
 
 ## Password Managers
 
-- [Passbolt](passbolt.md) 
+- [Passbolt](passbolt.md)
+- [sysPass](sysPass.md)
 
 ## System Tools
 
