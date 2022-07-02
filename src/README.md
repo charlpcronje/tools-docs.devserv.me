@@ -22,7 +22,6 @@ I realized that I'm constantly trying to remember some server name or some port 
 - [Deploy Rocket Chat](rocketChat.md)
 - [Cypht EMail Client](cyphtMail.md)
 
-
 ## Android
 
 - [DroidCam](droidcam.md)
@@ -40,8 +39,8 @@ I realized that I'm constantly trying to remember some server name or some port 
 - **[Vikunja](vikunja/README.md)**  
   - [Install Vikunja API](vikunja/vikunjaApi.md)
   - [Install Vikunja Frontend](vikunja/vikunjaFrontend.md)
-  - [Setup Apache Virtual Host](vikunjaVhost.md)
-  - [Configure Frontend](vikunjaConfigureFrontend.md)
+  - [Setup Apache Virtual Host](./vikunja/vikunjaVhost.md)
+  - [Configure Frontend](./vikunja/vikunjaConfigureFrontend.md)
   - [Install Vikunja Desktop](vikunja/vikunjaDesktop.md)
   - [Install Vikunja Mobile](vikunja/vikunjaMoble.md)
 - [Install OliveTin](oliveTin.md)
@@ -91,6 +90,7 @@ I realized that I'm constantly trying to remember some server name or some port 
 
 ## ERP / Task / Team Management
 
+- [Install Focalboard](focalboard.md) by [Mattermost](mattermost.md)
 - [Install PHP Tasks](phpTasks.md)
 - [Install cmdLine Tasks](cmdLineTasks.md)
 - [Install ERP Next](erpNext.md)
@@ -113,6 +113,7 @@ I realized that I'm constantly trying to remember some server name or some port 
 - [Cockpit Server Management](https://setup.docs.CRONje.ME/cockpit)
 - [Portainer Container Management](https://setup.docs.CRONje.ME/portainer)
 - [Install VmStat](vmstat.md)
+- [Install Plesk Server / Hosting Management](./plesk.md)
 
 Security
 
