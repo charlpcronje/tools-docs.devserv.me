@@ -32,7 +32,7 @@ I realized that I'm constantly trying to remember some server name or some port 
 - [n8n Workflow Automation](n8n.md)
 
 ## Dashboards
-
+- [BrowserOS (Windows style Desktop)](https://github.com/charlpcronje/browser.os)
 - [Install Dashboard](dashboard.md)
 - [Install Grafana](grafana/README.md)
 - [Heimdal Dashboard](https://setup.docs.CRONje.ME/heimdal)
