@@ -37,7 +37,6 @@ footer:
 ---
 <script type="text/javascript">(function(w,s){var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src="https://cdn.pagesense.io/js/webally/f2527eebee974243853bcd47b32631f4.js";var x=document.getElementsByTagName("script")[0];x.parentNode.insertBefore(e,x);})(window,"script");</script>
 
-
 ```sh
   _____ ___   ___  _     ____      _                  ____ ____   ___  _   _  _        __  __ _____ 
  |_   _/ _ \ / _ \| |   / ___|  __| | ___   ___ ___  / ___|  _ \ / _ \| \ | |(_) ___  |  \/  | ____|
@@ -160,6 +159,7 @@ I realized that I'm constantly trying to remember some server name or some port 
 
 Security
 
+- [Create Locally Trusted SSL Certificate with mkcert on Linux](mkcertLinux.md)
 - [KeyBase  End to end encryption](./keybase/README.md)
 
 ## Reporting

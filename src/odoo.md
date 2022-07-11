@@ -1,4 +1,7 @@
-# Install Odoo 15
+---
+title: Install Odoo 15
+---
+<script type="text/javascript">(function(w,s){var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src="https://cdn.pagesense.io/js/webally/f2527eebee974243853bcd47b32631f4.js";var x=document.getElementsByTagName("script")[0];x.parentNode.insertBefore(e,x);})(window,"script");</script>
 
 There are two ways of install Odoo 15 and I guess Odoo 14 and some below and that is:
 

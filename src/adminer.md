@@ -1,4 +1,7 @@
-# Installing Adminer
+---
+title: Installing Adminer
+---
+<script type="text/javascript">(function(w,s){var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src="https://cdn.pagesense.io/js/webally/f2527eebee974243853bcd47b32631f4.js";var x=document.getElementsByTagName("script")[0];x.parentNode.insertBefore(e,x);})(window,"script");</script>
 
 Adminer is a single file PHP application so the easiest way is just to download the file most relevant, this will in most cases just be the newest one
 

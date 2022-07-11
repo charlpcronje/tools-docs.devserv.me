@@ -1,4 +1,7 @@
-# Htop
+---
+title: Htop
+---
+<script type="text/javascript">(function(w,s){var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src="https://cdn.pagesense.io/js/webally/f2527eebee974243853bcd47b32631f4.js";var x=document.getElementsByTagName("script")[0];x.parentNode.insertBefore(e,x);})(window,"script");</script>
 
 [Htop](https://htop.dev/) is an interactive real-time process monitoring application for Linux/Unix-like systems and also a handy alternative to [top command(https://www.tecmint.com/12-top-command-examples-in-linux/)], which is a default process monitoring tool that comes pre-installed on all Linux operating systems.
 
