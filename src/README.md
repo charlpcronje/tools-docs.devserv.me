@@ -158,7 +158,7 @@ I realized that I'm constantly trying to remember some server name or some port 
 - [Install VmStat](vmstat.md)
 - [Install Plesk Server / Hosting Management](./plesk.md)
 
-Security
+## Security
 
 - [Create Locally Trusted SSL Certificate with mkcert on Linux](mkcertLinux.md)
 - [KeyBase  End to end encryption](./keybase/README.md)
@@ -176,6 +176,7 @@ Security
 ## Misc
 
 - [OrangeHRM](orangeHrm.md)
+- [Searxng (Deploy your own search engine)](saerxng.md)
 
 ## Photo Gallery & Images
 
