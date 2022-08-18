@@ -18,7 +18,7 @@ _Contributions and bug reports are welcome._
 
 The new version of Kutt is here. In version 2, we used TypeScript and we moved from Neo4j to PostgreSQL database in favor of performance and we're working on adding new features.
 
-If you're coming from v1, refer to [MIGRATION.md](MIGRATION.md) to migrate data from Neo4j to PostgreSQL.
+> Migrate database from Neo4j to Postgres [Migration.md](https://github.com/thedevs-network/kutt/blob/develop/MIGRATION.md)
 
 ## Table of Contents
 
@@ -74,7 +74,7 @@ You need to have [Node.js](https://nodejs.org/), [PostgreSQL](https://www.postgr
 
 ### Docker
 
-Download the [`docker-compose.yml`](docker-compose.yml) and the [`.docker.env`](.docker.env)-file from the repository and configure the `.docker.env` ([see below](#configuration)). 
+Download the [`docker-compose.yml`](https://github.com/thedevs-network/kutt/blob/develop/docker-compose.yml) and the [`.docker.env`](https://github.com/thedevs-network/kutt/blob/develop/.docker.env)-file from the repository and configure the `.docker.env` ([see below](#configuration)). 
 To execute Kutt you simply have to run `docker-compose up -d` command and then the app should be ready on port "3000".
 
 The `docker-compose.yml` uses the official kutt docker image available on [Docker Hub](https://hub.docker.com/r/kutt/kutt).
