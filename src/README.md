@@ -133,12 +133,12 @@ I realized that I'm constantly trying to remember some server name or some port 
 
 ## ERP / Task / Team Management
 
-- [Install Focalboard](focalboard.md) by [Mattermost](mattermost.md)
+- [Install Focalboard](focalboard.md) by [Mattermost](./mattermost/README.md)
 - [Install PHP Tasks](phpTasks.md)
 - [Install cmdLine Tasks](cmdLineTasks.md)
 - [Install ERP Next](erpNext.md)
 - [Install PHP Tasks & Notes](phpTasksNotes.md)
-- [Install Mattermost](mattermost.md)
+- [Install Mattermost](./mattermost/README.md)
 
 ## Performance
 
