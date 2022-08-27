@@ -4,6 +4,7 @@ url: https://tools.docs.CRONje.ME
 branding:
   title: CRONje.ME Tools
   label: Docs
+favicon: ./favicon.png
 links:
 - text: Dashboard
   link: https://nav.cronje.me
