@@ -1,0 +1,10 @@
+: R Programming | CRONje.ME
+label: R Programming
+order: 99
+authors:
+  - name: Charl Cronje
+    email: charl@CRONje.ME
+    link: https://blog.cronje.me
+    avatar: https://assets.cronje.me/avatars/darker.jpg
+date: 2022-01-25
+tags: [dev,tools,start,js,php,frontend,backend,developer,devtools,helpers,log]

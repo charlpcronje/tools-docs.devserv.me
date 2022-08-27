@@ -120,6 +120,18 @@ I realized that I'm constantly trying to remember some server name or some port 
 - [VS Code-Server](https://setup.docs.CRONje.ME/codeserverdocker)
 - [API Development](daptin.md)
 
+## RStudio IDE
+
+- **[R Programming](./rLang/README.md)**
+  - [Awesome R](./rLang/awesomer.md)
+  - [Install R](./rLang/installR.md)
+  - [R Studio](./rLang/rstudio.md)
+- **[R Markdown](./rLang/rmd.md)**
+  - [Markdown Templates](./rLang/mdTemplates.md)
+  - [Portfolio Template](./rLang/cvTemplare.md)
+  - [Quarto guide](./rLang/quartoGuide.md)
+- **[Web-Scraping](./rLang/webScraping.md)**
+
 ## Facial Recognition
 
 - [Exadel CompreFace](exadelCompreFace.md)
