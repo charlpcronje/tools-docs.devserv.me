@@ -1,9 +1,9 @@
 input: src
 output: public
-url: https://tools.docs.CRONje.ME
+url: http://kali.docs.cronje.me
 branding:
-  title: CRONje.ME Tools
-  label: Docs
+  title: CRONJje.ME | Home Lab & Other Tools
+  label: SERVER
 favicon: ./favicon.png
 links:
 - text: Dashboard
@@ -22,3 +22,4 @@ links:
   link: https://www.upwork.com/freelancers/~01ccb1439024ec9c50
 footer:
   copyright: "webAlly &copy; Copyright {{ year }}. All rights reserved."
+
