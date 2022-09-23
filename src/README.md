@@ -30,7 +30,7 @@ links:
   link: https://www.linkedin.com/in/charlpcronje
 - text: GitHub
   link: https://github.com/charlpcronje
-- text: Upwork Profile
+- text: UpWork Profile
   link: https://www.upwork.com/freelancers/~01ccb1439024ec9c50
 footer:
   copyright: "webAlly &copy; Copyright {{ year }}. All rights reserved."
@@ -74,6 +74,7 @@ I realized that I'm constantly trying to remember some server name or some port 
 - [n8n Workflow Automation](n8n.md)
 
 ## Dashboards
+
 - [BrowserOS (Windows style Desktop)](https://github.com/charlpcronje/browser.os)
 - [Install Dashboard](dashboard.md)
 - [Install Grafana](grafana/README.md)
@@ -101,7 +102,7 @@ I realized that I'm constantly trying to remember some server name or some port 
 
 ## Database Management
 
-- [Percona MySQL, PostgreSQL, MongoDB, Backup, Monitring and Clustering](percona.md)
+- [Percona MySQL, PostgreSQL, MongoDB, Backup, Monitoring and Clustering](percona.md)
 - [AdMiner Web-Bases SQL Client](adminer.md)
 - [Franchise](https://franchise.cloud/app)
 
@@ -110,6 +111,7 @@ I realized that I'm constantly trying to remember some server name or some port 
 - [AppSmith](appSmith.md)
 - [Cloud9 IDE](https://setup.docs.CRONje.ME/cloud9)
 - [Code Snippets](https://setup.docs.CRONje.ME/codesnippets)
+- [Figma - Online Design & Mockups](figma.md)
 - **[Hoppscotch](hoppscotch/README.md)**
   - [Hoppscotch CLI](hoppscotch/cli.md)
   - [Hoppscotch PWA](hoppscotch/pwa.md)
