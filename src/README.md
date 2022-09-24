@@ -73,6 +73,10 @@ I realized that I'm constantly trying to remember some server name or some port 
 - [AutoHotKey](autoHotKey.md)
 - [n8n Workflow Automation](n8n.md)
 
+## Animation, programmatic
+
+- [Rive, Community Driven and Shared](./rive.md)
+
 ## Dashboards
 
 - [BrowserOS (Windows style Desktop)](https://github.com/charlpcronje/browser.os)
@@ -108,19 +112,21 @@ I realized that I'm constantly trying to remember some server name or some port 
 
 ## Development
 
-- [AppSmith](appSmith.md)
+- [API Development](./daptin.md)
+- [AppSmith](./appSmith.md)
 - [Cloud9 IDE](https://setup.docs.CRONje.ME/cloud9)
 - [Code Snippets](https://setup.docs.CRONje.ME/codesnippets)
-- [Figma - Online Design & Mockups](figma.md)
-- **[Hoppscotch](hoppscotch/README.md)**
-  - [Hoppscotch CLI](hoppscotch/cli.md)
-  - [Hoppscotch PWA](hoppscotch/pwa.md)
-  - [Hoppscotch Browser Ext](hoppscotch/ext.md)
-- [Ice Coder](iceCoder.md)
-- [R Studio Server](rstudio.md)
-- [RegExr](regexr.md)
+- [Figma - Online Design & Mockups](./figma.md)
+- **[Hoppscotch](./hoppscotch/README.md)**
+  - [Hoppscotch CLI](./hoppscotch/cli.md)
+  - [Hoppscotch PWA](./hoppscotch/pwa.md)
+  - [Hoppscotch Browser Ext](./hoppscotch/ext.md)
+- [Ice Coder](./iceCoder.md)
+- [Insomnia Rest Client](./insomnia.md)
+- [R Studio Server](./rstudio.md)
+- [RegExr](./regexr.md)
 - [VS Code-Server](https://setup.docs.CRONje.ME/codeserverdocker)
-- [API Development](daptin.md)
+
 
 ## RStudio IDE
 
